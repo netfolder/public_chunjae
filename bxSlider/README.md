@@ -1,5 +1,3 @@
-# public_chunjae
-
 ## bxSlider
 	
 	
