@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>bxSlider type1 templete</title>
+	<link rel="stylesheet" href="http://edu.tsherpa.co.kr/Content/css/base.css">
+	<link rel="stylesheet" href="http://edu.tsherpa.co.kr/Content/css/common.css">
+	<link rel="stylesheet" href="http://edu.tsherpa.co.kr/Content/css/slick.css">
+<!--	<link rel="stylesheet" href="http://edu.tsherpa.co.kr/Content/css/main.css">-->
+
+	<style>
+		#wrap {
+			position: relative;
+			width: 980px;
+			margin: 0 auto;
+		}
+
+		.main_container .container .mid_banner2 .control .play {
+			background-image: url(http://edu.tsherpa.co.kr/content/image/main/ico_play.png)
+		}
+	</style>
+
+</head>
+
+<body>
+
+
+
+
+
+	<div id="wrap">
+
+
+		<ul class="bxslider">
+			<li><img src="http://edu.tsherpa.co.kr/Files/20190328083428/Banner/20190328083402780.jpg" width="230" height="370" alt=""></li>
+			<li><img src="http://edu.tsherpa.co.kr/Files/20190319145527/Banner/20190319145525357.png" width="230" height="370" alt=""></li>
+		</ul>
+
+
+
+
+
+		<script src="http://edu.tsherpa.co.kr/Scripts/jquery-1.12.4.min.js"></script>
+		<!--BxSlider v4.1.2 - Fully loaded, responsive content slider-->
+		<script src="http://edu.tsherpa.co.kr/Scripts/jquery.bxslider.js"></script>
+
+		<script>
+			$(document).ready(function() {
+				$('.bxslider').bxSlider({
+					auto: true,
+					speed: 500,
+					pause: 4000,
+					mode: 'fade',
+					autoControls: true,
+					pager: true,
+				});
+			});
+
+
+			/*$(document).ready(function() {
+				var bxBanner = $('.bxslider4').bxSlider({
+					auto: true,
+					autoControls: true,
+					wrapperClass: null,
+					controls: false,
+					pager: false,
+					tickerHover: false,
+					slideWidth: 230,
+					pause: 3000,
+					onSlideAfter: function() {
+						var idx = bxBanner.getCurrentSlide();
+						console.log('idx:', idx);
+						$(".mid_banner2 .control .page").removeClass("on");
+						$(".mid_banner2 .control .page:eq(" + idx.toString() + ")").addClass("on");
+					}
+				});
+				$(".mid_banner2 .control .page").on("click", function() {
+					var idx = parseInt($(this).attr("id").substr(8));
+					bxBanner.goToSlide(idx);
+				});
+				$(".mid_banner2 .control").on("click", ".play, .stop", function() {
+					if ($(this).hasClass("play")) {
+						$(this).addClass("stop").removeClass("play");
+						bxBanner.startAuto();
+					} else if ($(this).hasClass("stop")) {
+						$(this).addClass("play").removeClass("stop");
+						bxBanner.stopAuto();
+					}
+				});
+			});*/
+		</script>
+
+	</div>
+</body>
+
+</html>
