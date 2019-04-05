@@ -1,6 +1,7 @@
 ## bxSlider
 	
 ```javascript
+//기본설정
 var slider1=$('.slider1');
 slider1.bxSlider({            
 	maxSliders:1,    //슬라이드개수
