@@ -12,7 +12,7 @@ slider1.bxSlider({
 	controls:true     //좌우버튼보이기
 });	
 ```
-	* [옵션더보기](#option)
+#####[옵션더보기](#option)
 	
  - type1[ 소스보기 ](https://github.com/netfolder/public_chunjae/blob/master/bxSlider/html/bxslider_type1.html)
  
