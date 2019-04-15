@@ -34,6 +34,11 @@ slider1.bxSlider({
 
 ## <a name='option'>option</a>
 ```javascript
+
+/* 슬라이드의버튼 클래스 정의 : controls:false 설정 */
+prevClass: ".btn_next",
+nextClass: ".btn_pre",	
+
 /* 슬라이드 타입 설정 */
 mode: 'horizontal',
 // option : 'horizontal', 'vertical', 'fade'
@@ -106,9 +111,7 @@ maxSlides: 1,
 slideWidth: 0,
 // option : 정수
 	
-/* 슬라이드의버튼 클래스 정의 : controls:false 설정 */
-prevClass: ".btn_next",
-nextClass: ".btn_pre",	
+
 	
 	
 ```
