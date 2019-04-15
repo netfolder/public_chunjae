@@ -44,6 +44,7 @@
 	<div id="wrap">
 		<!-- 복사 -->
 		<div class="bxslider_type2">
+				<span id="count">1/2</span>
 				<a href="javascript:void(0);" class="btns btn_pre" title="이전"></a>
 				<a href="javascript:void(0);" class="btns btn_next" title="다음"></a>
 				<ul class="bxslider">
@@ -66,9 +67,12 @@
 			
 			/* 복사 */
 			$(document).ready(function() {
-				$('.bxslider_type2 .bxslider').bxSlider({
+				
+				var slidePerView = 4; //1페이지에 보이는 요소개수
+				
+				slider = $('.bxslider_type2 .bxslider').bxSlider({
 					minSlides: 2,
-   				maxSlides: 4,
+   				maxSlides: slidePerView,
 					auto: true,
 					autoControls: true,
 					slideMargin: 20,
@@ -80,9 +84,15 @@
 					pager: true,
 					controls:false,
 					prevClass: ".btn_next",
-          nextClass: ".btn_pre"
-
+          nextClass: ".btn_pre",
+					onSlideAfter : function(){
+						 //$('.slide-number').text((slider.getCurrentSlide()+1)+'/'+slider.getSlideCount());   
+						//console.log((slider.getCurrentSlide()+1)+'/'+slider.getSlideCount()/4);
+						$("#count").html((slider.getCurrentSlide()+1)+'/'+slider.getSlideCount()/slidePerView)
+					}
 				});
+				$("#count").html(1+'/'+slider.getSlideCount()/slidePerView)
+				
 			});
 			/* //복사 */
 		</script>
