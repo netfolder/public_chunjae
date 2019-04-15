@@ -39,6 +39,11 @@ slider1.bxSlider({
 prevClass: ".btn_next",
 nextClass: ".btn_pre",	
 
+/* 슬라이드 되고 난 후 제어시 */
+onSlideAfter:function(){
+	
+}
+
 /* 슬라이드 타입 설정 */
 mode: 'horizontal',
 // option : 'horizontal', 'vertical', 'fade'
