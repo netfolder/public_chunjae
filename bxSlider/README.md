@@ -19,7 +19,7 @@ slider1.bxSlider({
  	![Alt text](images/type1.jpg)
 	
 	
- - type1[ 소스보기 ](https://github.com/netfolder/public_chunjae/blob/master/bxSlider/html/bxslider_type2.html)
+ - type2[ 소스보기 ](https://github.com/netfolder/public_chunjae/blob/master/bxSlider/html/bxslider_type2.html)
  
  	![Alt text](images/type2.jpg)
  
