@@ -17,9 +17,13 @@ $(".slick").slick({
 	fade: false
 });
 ```
-##### [옵션더보기 ↓](#option)
+<!--##### [옵션더보기 ↓](#option)-->
 	
  - type1[ (소스보기) ](https://github.com/netfolder/public_chunjae/blob/master/slick/html/slick_type1.html)
  
  	![Alt text](images/type1.jpg)
+	
+ - type2[ (소스보기) ](https://github.com/netfolder/public_chunjae/blob/master/slick/html/slick_type2.html)
+ 
+ 	![Alt text](images/type2.jpg)
 	
