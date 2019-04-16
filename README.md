@@ -4,8 +4,10 @@
 
  - bxSlider[ (보기)](https://github.com/netfolder/public_chunjae/tree/master/bxSlider)
  
+ 	- git[ (보기)](https://github.com/stevenwanderski/bxslider-4)
+ 
  - slick[ (보기)](https://github.com/netfolder/public_chunjae/tree/master/slick)
  
- 	- slick git[ (보기)](https://github.com/kenwheeler/slick)
+ 	- git[ (보기)](https://github.com/kenwheeler/slick)
  
 
