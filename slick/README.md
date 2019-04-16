@@ -19,7 +19,7 @@ $(".slick").slick({
 ```
 ##### [옵션더보기 ↓](#option)
 	
- - type1[ (소스보기) ](https://github.com/netfolder/public_chunjae/blob/master/bxSlider/html/bxslider_type1.html)
+ - type1[ (소스보기) ](https://github.com/netfolder/public_chunjae/blob/master/slick/html/slick_type1.html)
  
  	![Alt text](images/type1.jpg)
 	
