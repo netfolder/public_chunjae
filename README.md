@@ -7,20 +7,6 @@
 - reset.css[(보기)](https://github.com/netfolder/study/blob/master/menu_content/submenu/css/default.css)
 - Airbnb CSS / Sass Styleguide 방법론[(보기)](https://github.com/airbnb/css#oocss-and-bem)
 
-|:---:|:---:|:---:|
-| 순서 | 속성 | 의미 |
-| 1	| display	| 표시 |
-| 2	| overflow	| 넘침 |
-| 3	| float	| 흐름 |
-| 4	| position	| 위치 |
-| 5	| z-index	| 정렬 |
-| 6	| width & height	| 크기 |
-| 7	| margin & padding	| 간격 |
-| 8	| border	| 보더 |
-| 9	| font	| 폰트 |
-| 10	| background	| 배경 |
-| 11	| etc(기타)	| color,text-decoration,text-indent,clear... |
-
 
 ## Sample
 
