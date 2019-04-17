@@ -10,7 +10,7 @@
 	
 
 
-## 샘플소스
+## Sample
 
 - bxSlider[(보기)](https://github.com/netfolder/public_chunjae/tree/master/bxSlider)
 	+ [(git)](https://github.com/stevenwanderski/bxslider-4)
@@ -18,7 +18,7 @@
 - slick[(보기)](https://github.com/netfolder/public_chunjae/tree/master/slick)
 	+ [(git)](https://github.com/kenwheeler/slick)
  
-## 주석
+## Comment
 ```
 /* 20190401 GNB 수정 시작 */
 .gnb_comm {overflow:hidden;width:978px;clear:both}
