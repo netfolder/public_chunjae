@@ -18,4 +18,14 @@
 - slick[(보기)](https://github.com/netfolder/public_chunjae/tree/master/slick)
 	+ [(git)](https://github.com/kenwheeler/slick)
  
-
+## 주석
+```
+/* 20190401 GNB 수정 시작 */
+.gnb_comm {overflow:hidden;width:978px;clear:both}
+.gnb_comm li {float:left;height:38px}
+.gnb_comm .menu {display:block;overflow:hidden;height:38px}
+.gnb_comm .home {width:79px}
+.gnb_comm .roadmap {width:98px}
+.gnb_comm .on .menu {margin:0 -1px}
+/* 20190401 GNB 수정 끝 */
+```
