@@ -148,7 +148,7 @@ p.bar { color: red; }
   box-shadow: $shadows;
 }
 
-.shadows { @include box-shadows(0px 4px 5px #666, 2px 6px 10px #999); }
+.shadows { @include box-shadow(0px 4px 5px #666, 2px 6px 10px #999); }
 ```
 
 `...` 표현은 리스트나, 맵을 개별 인자들로 분해해서 함수나 믹스인에 전달할 때 사용될 수 있다.
