@@ -6,9 +6,11 @@
 ### Table of Contents
 
 * css[【↓】](#css)
+	- sass문법 정리[(보기)](https://github.com/netfolder/public_chunjae/tree/master/sass) ing..
 * image 사용법[【↓】](#image)
 * comment[【↓】](#comment)
 * plugin smaple[【↓】](#sample)
+
 
 
 -----
