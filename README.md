@@ -87,9 +87,9 @@
 #### Plugin Sample
 
 - bxSlider[(보기)](https://github.com/netfolder/public_chunjae/tree/master/bxSlider)
-	+ [(git)](https://github.com/stevenwanderski/bxslider-4)
+	+ [(공식 git 방문)](https://github.com/stevenwanderski/bxslider-4)
 
 - slick[(보기)](https://github.com/netfolder/public_chunjae/tree/master/slick)
-	+ [(git)](https://github.com/kenwheeler/slick)
+	+ [(공식 git 방문)](https://github.com/kenwheeler/slick)
 
 -----
