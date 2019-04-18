@@ -15,7 +15,7 @@
 
 -----
 
-<div style="text-align: right"> <a href="#top">TOP【▲】</a> </div>
+<div style="text-align: right"> <a href="#top">⬆ back to top</a> </div>
 
 <a name='css'></a>
 #### CSS
@@ -33,7 +33,7 @@
 
 -----
 
-<div style="text-align: right"> <a href="#top">TOP【▲】</a> </div>
+<div style="text-align: right"> <a href="#top">⬆ back to top</a> </div>
 
 <a name='image'></a>
 #### Image 
@@ -59,7 +59,7 @@
 
 -----
 
-<div style="text-align: right"> <a href="#top">TOP【▲】</a> </div>
+<div style="text-align: right"> <a href="#top">⬆ back to top</a> </div>
 
 <a name='comment'></a>
 #### Comment
@@ -89,7 +89,7 @@
 ```
 
 -----
-<div style="text-align: right"> <a href="#top">TOP【▲】</a> </div>
+<div style="text-align: right"> <a href="#top">⬆ back to top</a> </div>
 
 <a name='sample'></a>
 #### Plugin Sample
@@ -102,4 +102,4 @@
 
 -----
 
-<div style="text-align: right"> <a href="#top">TOP【▲】</a> </div>
+<div style="text-align: right"> <a href="#top">⬆ back to top</a> </div>
