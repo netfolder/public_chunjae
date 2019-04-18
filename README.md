@@ -15,7 +15,7 @@
 
 -----
 
-[【▲】](#top)
+<div style="text-align: right"> <a href="#top">TOP【▲】</a> </div>
 <a name='css'></a>
 #### CSS
 - reset.css[(보기)](https://github.com/netfolder/study/blob/master/menu_content/submenu/css/default.css)
@@ -31,7 +31,8 @@
 ```
 
 -----
-[【▲】](#top)
+
+<div style="text-align: right"> <a href="#top">TOP【▲】</a> </div>
 <a name='image'></a>
 #### Image 
 
@@ -55,7 +56,9 @@
 	* 용량 대비 이미지 품질을 고려하여 포맷을 변경할 수도 있다.
 
 -----
-[【▲】](#top)
+
+<div style="text-align: right"> <a href="#top">TOP【▲】</a> </div>
+
 <a name='comment'></a>
 #### Comment
 ```
@@ -84,7 +87,8 @@
 ```
 
 -----
-[【▲】](#top)
+<div style="text-align: right"> <a href="#top">TOP【▲】</a> </div>
+
 <a name='sample'></a>
 #### Plugin Sample
 
@@ -95,3 +99,5 @@
 	+ [(공식 git 방문)](https://github.com/kenwheeler/slick)
 
 -----
+
+<div style="text-align: right"> <a href="#top">TOP【▲】</a> </div>
