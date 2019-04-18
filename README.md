@@ -94,10 +94,10 @@
 <a name='sample'></a>
 #### Plugin Sample
 
-- bxSlider[(보기)](https://github.com/netfolder/public_chunjae/tree/master/bxSlider)
+- bxSlider[(샘플보기)](https://github.com/netfolder/public_chunjae/tree/master/bxSlider)
 	+ [(공식 git 방문)](https://github.com/stevenwanderski/bxslider-4)
 
-- slick[(보기)](https://github.com/netfolder/public_chunjae/tree/master/slick)
+- slick[(샘플보기)](https://github.com/netfolder/public_chunjae/tree/master/slick)
 	+ [(공식 git 방문)](https://github.com/kenwheeler/slick)
 
 -----
