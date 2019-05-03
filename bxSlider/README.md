@@ -16,20 +16,12 @@ slider1.bxSlider({
 ```
 ##### [옵션더보기 ↓](#option)
 	
-<<<<<<< HEAD
- - type1[ 소스보기 ](https://github.com/netfolder/public_chunjae/blob/master/bxSlider/html/bxslider_type1.html)
-=======
  - type1[ (소스보기) ](https://github.com/netfolder/public_chunjae/blob/master/bxSlider/html/bxslider_type1.html)
->>>>>>> 51cc6818c313e20b6703156ee947776a87af0c2a
  
  	![Alt text](images/type1.jpg)
 	
 	
-<<<<<<< HEAD
- - type2[ 소스보기 ](https://github.com/netfolder/public_chunjae/blob/master/bxSlider/html/bxslider_type2.html)
-=======
  - type2[ (소스보기) ](https://github.com/netfolder/public_chunjae/blob/master/bxSlider/html/bxslider_type2.html) : 4개가 1판
->>>>>>> 51cc6818c313e20b6703156ee947776a87af0c2a
  
  	![Alt text](images/type2.jpg)
  
@@ -42,8 +34,6 @@ slider1.bxSlider({
 
 ## <a name='option'>option</a>
 ```javascript
-<<<<<<< HEAD
-=======
 
 /* 슬라이드의버튼 클래스 정의 : controls:false 설정 */
 prevClass: ".btn_next",
@@ -54,7 +44,6 @@ onSlideAfter:function(){
 	
 }
 
->>>>>>> 51cc6818c313e20b6703156ee947776a87af0c2a
 /* 슬라이드 타입 설정 */
 mode: 'horizontal',
 // option : 'horizontal', 'vertical', 'fade'
@@ -82,7 +71,6 @@ pause: 4000,
 /* true이면 "다음"/ "이전"컨트롤이 추가됩니다. */
 controls: true,
 // option : true / false
-<<<<<<< HEAD
  
 /* true 이면 하단 pager 버튼이 추가 됩니다. */
 pager: true,
@@ -92,17 +80,6 @@ pager: true,
 infiniteLoop: true,
 // option : true / false
  
-=======
- 
-/* true 이면 하단 pager 버튼이 추가 됩니다. */
-pager: true,
-// option : true / false
- 
-/* true 인 경우 마지막 슬라이에서 "다음"을 클릭하면 첫 번째 슬라이드로 전환 */
-infiniteLoop: true,
-// option : true / false
- 
->>>>>>> 51cc6818c313e20b6703156ee947776a87af0c2a
 /* true이면 마지막 슬라이드에서 다음버튼을 숨긴다. 첫번째 슬라이드 일 경우 동일 */
 hideControlOnEnd: false,
 // option : true / false
@@ -138,11 +115,8 @@ maxSlides: 1,
 /* 각 슬라이더의 width값 설정 */
 slideWidth: 0,
 // option : 정수
-<<<<<<< HEAD
-=======
 	
 
 	
 	
->>>>>>> 51cc6818c313e20b6703156ee947776a87af0c2a
 ```

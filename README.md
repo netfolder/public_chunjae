@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-# public_chunjae
-지속성있는 내용 유지공간
-
- - bxSlider[ (보기)](https://github.com/netfolder/public_chunjae/tree/master/bxSlider)
- 
-=======
 
 # public_chunjae
 지속성있는 내용 유지공간
@@ -111,4 +104,3 @@
 -----
 
 <div style="text-align: right"> <a href="#top">⬆ back to top</a> </div>
->>>>>>> 51cc6818c313e20b6703156ee947776a87af0c2a
