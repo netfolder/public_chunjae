@@ -10,7 +10,7 @@
 	- 일부 글꼴 크기가 Safari (iPhone)에서 더 크게 렌더링 이슈 해결법[【→】](https://demun.tistory.com/2402)
 * image 사용법[【↓】](#image)
 * comment[【↓】](#comment)
-* plugin smaple[【↓】](#sample)
+* 좌우롤링[【↓】](#sample)
 
 
 
