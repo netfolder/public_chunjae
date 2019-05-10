@@ -94,10 +94,9 @@
 			/* 복사 */
 			$(document).ready(function() {
 				
-				
-				
-				function BxSlider(option){
-					$(option.selector+' .bxslider').bxSlider({
+				function BxSlider($selector , option){
+					var el = $selector;
+					$(el+' .bxslider').bxSlider({
 						auto: option.auto,
 						autoControls: option.autoControls,
 						mode: option.mode,
@@ -106,14 +105,13 @@
 						autoControls: option.autoControls,
 						pager: option.pager,
 						controls:option.controls,
-						prevClass: option.prevClass,
-						nextClass: option.nextClass,
+						prevClass: el+' .btn_next',
+						nextClass: el+' .btn_pre'
 					});
 				}
 				
-				
+				/* 1번째 배너 */
 				var option_1 = {
-					selector: ".bx_slide_01",
 					auto: true,
 					autoControls: true,
 					mode: 'fade',
@@ -121,16 +119,13 @@
 					pause: 1000,						
 					autoControls: true,
 					pager: true,
-					controls:false,
-					prevClass: ".bx_slide_01 .btn_next",
-					nextClass: ".bx_slide_01 .btn_pre",
+					controls:false
 				}
-				var slider_01 = new BxSlider(option_1);
+				var slider_01 = new BxSlider(".bx_slide_01" , option_1);
+				/* 1번째 배너 끝 */
 				
-				
-				
+				/* 2번째 배너 */
 				var option_2 = {
-					selector: ".bx_slide_02",
 					auto: true,
 					autoControls: true,
 					mode: 'vertical',
@@ -138,27 +133,23 @@
 					pause: 2000,						
 					autoControls: true,
 					pager: true,
-					controls:false,
-					prevClass: ".bx_slide_02 .btn_next",
-					nextClass: ".bx_slide_02 .btn_pre",
+					controls:false
 				}
-				var slider_02 = new BxSlider(option_2);
+				var slider_02 = new BxSlider(".bx_slide_02" ,option_2);
+				/* 2번째 배너 끝 */
 				
-				
+				/* 3번째 배너 */
 				var option_3 = {
-					selector: ".bx_slide_03",
 					auto: true,
 					autoControls: true,
 					speed: 500,
 					pause: 3000,						
 					autoControls: true,
 					pager: true,
-					controls:false,
-					prevClass: ".bx_slide_03 .btn_next",
-					nextClass: ".bx_slide_03 .btn_pre",
+					controls:false
 				}
-				var slider_03 = new BxSlider(option_3);
-				
+				var slider_03 = new BxSlider(".bx_slide_03" ,option_3);
+				/* 3번째 배너 끝 */
 				
 				
 			});
