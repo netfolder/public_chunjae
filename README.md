@@ -93,7 +93,7 @@
 <div style="text-align: right"> <a href="#top">⬆ back to top</a> </div>
 
 <a name='sample'></a>
-#### Plugin Sample
+#### 좌우롤링
 
 - bxSlider[(샘플보기)](https://github.com/netfolder/public_chunjae/tree/master/bxSlider)
 	+ [(공식 git 방문)](https://github.com/stevenwanderski/bxslider-4)
