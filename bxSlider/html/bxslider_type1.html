@@ -21,7 +21,7 @@
 		.bxslider_type1 .bx-wrapper .bx-pager.bx-default-pager a {background:url(http://edu.design.tsherpa.co.kr/Content/image/main/ico_off.png) no-repeat center top;text-indent: -9999px;display: block;width: 10px;height: 10px;margin: 0 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;}
 		.bxslider_type1 .bx-wrapper .bx-controls-auto .bx-start {display: block;text-indent: -9999px;width: 6px;height: 10px;background: url(http://edu.design.tsherpa.co.kr/Content/image/main/ico_play.png) 0 0 no-repeat;margin: 0 3px;}
 		.bxslider_type1 .bx-wrapper .bx-controls-auto .bx-stop {display: block;text-indent: -9999px;width: 6px;height: 10px;background: url(http://edu.design.tsherpa.co.kr/Content/image/main/ico_stop.png) 0 0 no-repeat;margin: 0 3px;}
-		.bxslider_type1 .bx-wrapper .bx-controls{ position: absolute; bottom:0px; width:100%;text-align: center;}
+		.bxslider_type1 .bx-wrapper .bx-controls{ position: absolute; bottom:0px; width:100%;text-align: center; z-index: 999}
 		.bxslider_type1 .bx-wrapper .bx-pager{ text-align: center; display: inline-block;}
 		.bxslider_type1 .bx-wrapper .bx-pager .bx-pager-item{ display: inline-block;}
 		.bxslider_type1 .bx-wrapper .bx-controls-auto{ display: inline-block;}
@@ -42,7 +42,7 @@
 		
 	<div id="wrap">
 		<!-- 복사 -->
-		<div class="bxslider_type1">
+		<div class="bxslider_type1 bx_slide_01">
 				<a href="javascript:void(0);" class="btns btn_pre" title="이전"></a>
 				<a href="javascript:void(0);" class="btns btn_next" title="다음"></a>
 
@@ -57,7 +57,7 @@
 				</ul>
 		</div>
 
-		<div class="bxslider_type1">
+		<div class="bxslider_type1 bx_slide_02">
 				<a href="javascript:void(0);" class="btns btn_pre" title="이전"></a>
 				<a href="javascript:void(0);" class="btns btn_next" title="다음"></a>
 
@@ -72,7 +72,7 @@
 				</ul>
 		</div>
 
-		<div class="bxslider_type1">
+		<div class="bxslider_type1 bx_slide_03">
 				<a href="javascript:void(0);" class="btns btn_pre" title="이전"></a>
 				<a href="javascript:void(0);" class="btns btn_next" title="다음"></a>
 
@@ -93,18 +93,75 @@
 			
 			/* 복사 */
 			$(document).ready(function() {
-				$('.bxslider_type1 .bxslider').bxSlider({
+				
+				/*mode: 'fade',*/
+				
+				
+				function BxSlider(option){
+					$(option.selector+' .bxslider').bxSlider({
+						auto: option.auto,
+						autoControls: option.autoControls,
+						mode: option.mode,
+						speed: option.speed,
+						pause: option.pause,						
+						autoControls: option.autoControls,
+						pager: option.pager,
+						controls:option.controls,
+						prevClass: option.prevClass,
+						nextClass: option.nextClass,
+					});
+				}
+				
+				
+				var option_1 = {
+					selector: ".bx_slide_01",
 					auto: true,
 					autoControls: true,
+					mode: 'fade',
 					speed: 500,
-					pause: 14000,
-					/*mode: 'fade',*/
+					pause: 1000,						
 					autoControls: true,
 					pager: true,
 					controls:false,
-					prevClass: ".btn_next",
-          			nextClass: ".btn_pre",
-				});
+					prevClass: ".bx_slide_01 .btn_next",
+					nextClass: ".bx_slide_01 .btn_pre",
+				}
+				var slider_01 = new BxSlider(option_1);
+				
+				
+				
+				var option_2 = {
+					selector: ".bx_slide_02",
+					auto: true,
+					autoControls: true,
+					mode: 'vertical',
+					speed: 500,
+					pause: 2000,						
+					autoControls: true,
+					pager: true,
+					controls:false,
+					prevClass: ".bx_slide_02 .btn_next",
+					nextClass: ".bx_slide_02 .btn_pre",
+				}
+				var slider_02 = new BxSlider(option_2);
+				
+				
+				var option_3 = {
+					selector: ".bx_slide_03",
+					auto: true,
+					autoControls: true,
+					speed: 500,
+					pause: 3000,						
+					autoControls: true,
+					pager: true,
+					controls:false,
+					prevClass: ".bx_slide_03 .btn_next",
+					nextClass: ".bx_slide_03 .btn_pre",
+				}
+				var slider_03 = new BxSlider(option_3);
+				
+				
+				
 			});
 			/* //복사 */
 		</script>
