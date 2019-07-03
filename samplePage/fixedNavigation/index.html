@@ -174,7 +174,8 @@
 					var $target = self.$contents.eq(idx), 
 					i = $target.index(), 
 					targetTop = $target.offset().top; 
-					if (targetTop <= scltop + self.navi_height) { 
+					
+					if (targetTop <= scltop + self.navi_height + 10) { 
 						self.$nav.find("li a").removeClass('on'); 
 						self.$nav.find("li a").eq(idx).addClass('on');
 					} ;
@@ -199,9 +200,7 @@
 					
 					var iElm = $(this).attr("href"),
 						iElmPos = $(iElm).offset().top,
-						moveToPos = function(){
-							console.log("moveToPos  " , iElmPos);
-							console.log("self.navi_height  " , self.navi_height);
+						moveToPos = function(){							
 							$('html, body').stop().animate({ scrollTop: iElmPos - self.navi_height}, "slow");
 						};
 					moveToPos();
