@@ -11,7 +11,7 @@
 * image 사용법[【↓】](#image)
 * comment[【↓】](#comment)
 * 좌우롤링[【↓】](#sample)
-* fixedNavigation[【↓】](#fixedNavigation)
+* fixedNavigation(반응형 대응)[【↓】](#fixedNavigation)
 
 
 
