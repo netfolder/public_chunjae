@@ -13,6 +13,7 @@
 		.slick_slide_01{width: 1000px;}
 		.slick_slide_02{width: 500px;}		
 		.slick_slide_03{width: 250px;}		
+		.slick_slide_04{width: 1000px;}	
 		
 		.slick_type1 .slick-slide{}
 		.slick_type1 .slick-arrow{position: absolute; top:50%; margin-top:-22px;width: 45px; height: 44px; cursor: pointer;}
@@ -83,7 +84,27 @@
 				<li><img src="http://placehold.it/250x300?text=8"></li>
 			</ul>
 		</div>
+		<br>
+		<br>
+		<br>
+		<br>
 		
+		<div class="slick_type1 slick_slide_04">
+			<span id="count">0 / 0</span>
+			<ul class="regular slider">   
+				<li><img src="http://placehold.it/250x300?text=1"></li>
+				<li><img src="http://placehold.it/250x300?text=2"></li>
+				<li><img src="http://placehold.it/250x300?text=3"></li>
+				<li><img src="http://placehold.it/250x300?text=4"></li>
+				<li><img src="http://placehold.it/250x300?text=5"></li>
+				<li><img src="http://placehold.it/250x300?text=6"></li>
+				<li><img src="http://placehold.it/250x300?text=7"></li>
+				<li><img src="http://placehold.it/250x300?text=8"></li>
+				<li><img src="http://placehold.it/250x300?text=9"></li>
+				
+			
+			</ul>
+		</div>
 		
 		<script src="http://edu.tsherpa.co.kr/Scripts/jquery-1.12.4.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
@@ -114,6 +135,31 @@
 					$(el+" #count").html( (nextSlide+1)  + " / " + slickColumnsTotal)
 				});
 				$(el + " #count").html( 1 + " / " + slickColumnsTotal)
+				
+				
+				/* 무한 롤링 모드가 아닐때 */
+				if(!option.infinite){
+					$(el+" .slick-prev").hide();
+					$(el+' .regular').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+												
+						if(nextSlide === 0){
+							$(el+" .slick-prev").hide();
+							$(el+" .slick-next").show();
+						}else{
+							$(el+" .slick-prev").show();
+						}						
+						
+						if(nextSlide == (slickColumnsTotal - option.slidesToShow)){
+						   console.log("last");
+							$(el+" .slick-next").hide();
+						}else{
+							$(el+" .slick-next").show();
+						}
+						
+					});					
+					
+				}			
+
 			}
 			
 			/* 1번째 배너 */
@@ -165,6 +211,26 @@
 			}
 			var slick_03 = new SlickSlider(".slick_slide_03" , option_3);
 			/* 3번째 배너 끝 */
+			
+			
+			/* 4번째 배너 */
+			var option_4 = {
+				autoplay : false,
+				dots: true,
+				speed : 500,
+				arrows :true,
+				infinite: false,
+				autoplaySpeed: 3000,
+				arrows: true,
+				slidesToShow: 4, /* 화면에 보이는계수 */
+				slidesToScroll: 1, 
+				fade: false
+			}
+			var slick_04 = new SlickSlider(".slick_slide_04" , option_4);
+			
+			
+				
+			/* 4번째 배너 끝 */
 		</script>
 	</div>
 </body>
