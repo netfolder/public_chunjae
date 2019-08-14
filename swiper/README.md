@@ -1,6 +1,6 @@
 ### [ < 홈으로](https://github.com/netfolder/public_chunjae)
 
-## slick
+## swiper 3.x
 
 ### https://github.com/nolimits4web/Swiper/blob/Swiper3/API.md 3.x 버젼 사용
 
