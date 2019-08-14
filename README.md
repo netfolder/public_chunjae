@@ -109,8 +109,6 @@
 
 <div style="text-align: right"> <a href="#top">⬆ back to top</a> </div>
 
------
-<div style="text-align: right"> <a href="#top">⬆ back to top</a> </div>
 
 <a name='fixedNavigation'></a>
 #### 스크롤 텝메뉴 샘플 ( 반응형 대응 )
