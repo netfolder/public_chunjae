@@ -19,10 +19,10 @@ var s_swiper = new Swiper('.swiper-container', {
 ```
 <!--##### [옵션더보기 ↓](#option)-->
 
- - type1[ (소스보기) ](https://github.com/netfolder/public_chunjae/blob/master/swiper/html/m_swiper.html)
+ - type1[ (소스보기) ](https://github.com/netfolder/public_chunjae/blob/master/swiper/html/m_swiper.html) : 단일 롤링
 
  	![Alt text](images/img01.png)
 
- - type2[ (소스보기) ](https://github.com/netfolder/public_chunjae/blob/master/swiper/html/m_swiper_01.html)
+ - type2[ (소스보기) ](https://github.com/netfolder/public_chunjae/blob/master/swiper/html/m_swiper_01.html) : 텝 활성화 및 클릭시 스와이핑처리
 
  	![Alt text](images/img02.png)
