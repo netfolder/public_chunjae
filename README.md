@@ -26,11 +26,11 @@
 - [IR기법(Image Replacement)](https://nuli.navercorp.com/sharing/blog/post/1132804) : 대체 텍스트 제공
 ```csharp
 /* 의미있는 이미지의 대체 텍스트를 제공하는 경우(Phark Method) */
-.ir_pm {display:block; overflow:hidden; font-size:0; line-height:0; text-indent:-9999px;} 
+.ir_pm {display:block; overflow:hidden; font-size:0; line-height:0; text-indent:-9999px;}
 /* 의미있는 이미지의 대체 텍스트로 이미지가 없어도 대체 텍스트를 보여주고자 할 때(WA IR) */
-.ir_wa {display:block; overflow:hidden; position:relative; z-index:-1; width:100%; height: 100%;} 
+.ir_wa {display:block; overflow:hidden; position:relative; z-index:-1; width:100%; height: 100%;}
 /* 대체 텍스트가 아닌 접근성을 위한 숨김 텍스트를 제공할 때 */
-.ir_su {overflow: hidden; position:absolute; width:0; height:0; line-height:0; text-indent:-9999px;} 
+.ir_su {overflow: hidden; position:absolute; width:0; height:0; line-height:0; text-indent:-9999px;}
 ```
 
 -----
@@ -38,7 +38,7 @@
 <div style="text-align: right"> <a href="#top">⬆ back to top</a> </div>
 
 <a name='image'></a>
-#### Image 
+#### Image
 
 | 종류 | PC web | Mobile Web |
 | :-------- | :-------- | :-------- |
@@ -54,7 +54,7 @@
 	* JPG로 저장 시 압축률 관리
 		* Save for web 기준 : Original 혹은 JPG Quality 90 이상
 	* 구형브라우저에서의 PNG 이미지 지원</br>
-* Mobile Web 
+* Mobile Web
 	* 3G망을 이용하는 유저를 고려하여 용량 축소가 중요하다.
 	* PNG-8 포맷을 기본으로 저장하며, 색상 수가 많거나 반투명 효과가 있으면 PNG-24를 사용한다.
 	* 용량 대비 이미지 품질을 고려하여 포맷을 변경할 수도 있다.
@@ -101,6 +101,9 @@
 
 - slick[(샘플보기)](https://github.com/netfolder/public_chunjae/tree/master/slick)
 	+ [(공식 git 방문)](https://github.com/kenwheeler/slick)
+
+- swiper[(샘플보기)](https://github.com/netfolder/public_chunjae/tree/master/swiper)
+	+ [(공식 git 방문)](https://github.com/nolimits4web/swiper)
 
 -----
 
