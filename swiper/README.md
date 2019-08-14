@@ -19,7 +19,7 @@ var s_swiper = new Swiper('.swiper-container', {
 ```
 <!--##### [옵션더보기 ↓](#option)-->
 
- - type1[ (소스보기) ](https://github.com/netfolder/public_chunjae/blob/master/swiper/html/m_swiper.html)
+ - type1[ (소스보기) ](https://github.com/netfolder/public_chunjae/blob/master/swiper/html/m_swiper_01.html)
 
  	<!-- ![Alt text](images/type1.jpg) -->
 
