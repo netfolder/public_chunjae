@@ -23,6 +23,6 @@ var s_swiper = new Swiper('.swiper-container', {
 
  	<!-- ![Alt text](images/type1.jpg) -->
 
- - type2[ (소스보기) ](https://github.com/netfolder/public_chunjae/blob/master/slick/html/m_sample_01.html)
+ - type2[ (소스보기) ](https://github.com/netfolder/public_chunjae/blob/master/slick/html/m_swiper_01.html)
 
  	<!-- ![Alt text](images/type2.jpg) -->
