@@ -102,7 +102,7 @@
 - slick[(샘플보기)](https://github.com/netfolder/public_chunjae/tree/master/slick)
 	+ [(공식 git 방문)](https://github.com/kenwheeler/slick)
 
-- swiper[(샘플보기)](https://github.com/netfolder/public_chunjae/tree/master/swiper)
+- swiper 3.x[(샘플보기)](https://github.com/netfolder/public_chunjae/tree/master/swiper)
 	+ [(공식 git 방문)](https://github.com/nolimits4web/swiper)
 
 -----
