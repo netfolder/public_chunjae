@@ -8,7 +8,7 @@
 * css[【↓】](#css)
 	- sass문법[(보기)](https://github.com/netfolder/public_chunjae/tree/master/sass) ing..
 	- 일부 글꼴 크기가 Safari (iPhone)에서 더 크게 렌더링 이슈 해결법[【→】](https://demun.tistory.com/2402)
-* px to vw[【→】](https://pxtovw.dev-calc.space/)
+* px to vw calc[【→】](https://pxtovw.dev-calc.space/)
 * comment[【↓】](#comment)
 * 좌우롤링[【↓】](#sample)
 * fixedNavigation(반응형 대응)[【↓】](#fixedNavigation)
